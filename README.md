@@ -1,11 +1,9 @@
 # Project-Terraform-AWS-Deploy-a-2-Tier-Architecture-
-<br/> 
+
 <h6>This project contains terraform configuration files on AWS. Here is the architecture of what will be created</h6>
 <img src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png" height="auto" width="100%" />
 
 ## Sumary
-<br/>
-
 - Deploy a VPC with 2 public subnets and 2 private subnets. 
 - Each public subnet will be in a different AZ for high availability(same private subnets).
 - Deploy 1 EC2 instance in each public subnet.
@@ -13,8 +11,6 @@
 -  Check bootstrapping worked from the webpage and connect ssh to EC2 in private subnet.
 - 2 private subnets will have an MariaDB instance (subnets group).
 - In 1 private subnet will be deploy 1 EC2 connect mariaDB.
-
-
 
 ## Set up 
 ### Prerequisites
@@ -24,13 +20,12 @@
 </i>
 
 ## Running the Configuration
-<br/>
 
 ### Initializing the Terraform directory
   Run the command
 ```properties
 terraform init
-```  
+```
 ### Apply the Terraform Config to AWS
   Run the command
 ```properties
