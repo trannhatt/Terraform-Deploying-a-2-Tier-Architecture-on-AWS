@@ -1,4 +1,4 @@
-# Project-Terraform-AWS-Deploy-a-2-Tier-Architecture-
+# Project-Terraform-AWS-Deploy-A-2-Tier-Architecture
 
 <h6>This project contains terraform configuration files on AWS. Here is the architecture of what will be created</h6>
 <img src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png" height="auto" width="100%" />
