@@ -3,7 +3,7 @@
 <h6>This project contains terraform configuration files on AWS. Here is the architecture of what will be created</h6>
 <img src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png" height="auto" width="100%" />
 
-## Sumary
+## Summary
 - Deploy a VPC with 2 public subnets and 2 private subnets. 
 - Each public subnet will be in a different AZ for high availability(same private subnets).
 - Deploy 1 EC2 instance in each public subnet.
