@@ -2,6 +2,7 @@
 <br/> 
 <h6>This project contains terraform configuration files on AWS. Here is the architecture of what will be created</h6>
 <img src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png" height="auto" width="100%" />
+
 ## Sumary
 <br/>
 
@@ -16,8 +17,6 @@
 
 
 ## Set up 
-<br/>
-
 ### Prerequisites
 - **[Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)** installed.
 - **[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)** installed and configuration.
