@@ -1,8 +1,7 @@
 # Project-Terraform-AWS-Deploy-a-2-Tier-Architecture-
 <br/> 
 <h6>This project contains terraform configuration files on AWS. Here is the architecture of what will be created</h6>
-<a href="#"><img width="100%" height="auto" src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png?resize=219%2C219" height="" /></a>
-
+<img src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png" height="auto" width="100%" />
 ## Sumary
 <br/>
 
