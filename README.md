@@ -1,17 +1,12 @@
-# Project-Terraform-AWS-Deploy-A-2-Tier-Architecture
+# Project Terraform Deploying a 2-Tier Architecture On AWS
 
-<h6>This project contains terraform configuration files on AWS. Here is the architecture of what will be created</h6>
+<h6>I deploy a 2-tier architecture on AWS using Terraform and hardcode data.</h6>
 <img src="https://webexample75.files.wordpress.com/2023/04/project-architecture.png" height="auto" width="100%" />
 
 ## Summary
-- Deploy a VPC with 2 public subnets and 2 private subnets. 
-- Each public subnet will be in a different AZ for high availability(same private subnets).
-- Deploy 1 EC2 instance in each public subnet.
-- A load balancer that will direct traffic to the public subnets.
--  Check bootstrapping worked from the webpage and connect ssh to EC2 in private subnet.
-- 2 private subnets will have an MariaDB instance (subnets group).
-- In 1 private subnet will be deploy 1 EC2 connect mariaDB.
-
+- I deploy a VPC with 2 public subnets and 2 private subnets, each public subnet being located in a different availability zone for high availability (the same for private subnets), and deploy 1 EC2 instance in each public subnet.
+-I create a load balancer that directs traffic to the public subnets. I am also checking that the bootstrapping process is working by accessing the web page, as well as connecting via SSH to the EC2 instance in the private subnet.
+- Additionally, I will deploy two MariaDB instances in the private subnets (grouped by subnets). One EC2 instance will be deployed in one of the private subnets to connect to the MariaDB instance.
 ## Set up 
 ### Prerequisites
 - **[Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)** installed.
