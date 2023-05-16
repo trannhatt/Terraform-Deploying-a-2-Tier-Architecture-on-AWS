@@ -6,7 +6,7 @@
 ## Summary
 - I deploy a VPC with 2 public subnets and 2 private subnets, each public subnet being located in a different availability zone for high availability (the same for private subnets), and deploy 1 EC2 instance in each public subnet.
 
--I create a load balancer that directs traffic to the public subnets. I am also checking that the bootstrapping process is working by accessing the web page, as well as connecting via SSH to the EC2 instance in the private subnet.
+- I create a load balancer that directs traffic to the public subnets. I am also checking that the bootstrapping process is working by accessing the web page, as well as connecting via SSH to the EC2 instance in the private subnet.
 
 - Additionally, I will deploy two MariaDB instances in the private subnets (grouped by subnets). One EC2 instance will be deployed in one of the private subnets to connect to the MariaDB instance.
 ## Set up 
